@@ -1,0 +1,20 @@
+{
+  "name": "bindung",
+  "version": "1.0.0",
+  "description": "Helps you require your native Node.js addon.",
+  "keywords": [
+    "bindings",
+    "native",
+    "addon",
+    "node-gyp",
+    "gyp",
+    "c",
+    "c++"
+  ],
+  "license": "ISC",
+  "author": "Jakob Krigovsky <jakob@krigovsky.com>",
+  "repository": "sonicdoe/bindung",
+  "engines": {
+    "node": ">=4"
+  }
+}
