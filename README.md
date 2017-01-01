@@ -1,6 +1,7 @@
 # bindung
 
 [![Node.js package](https://img.shields.io/npm/v/bindung.svg)](https://www.npmjs.com/package/bindung)
+[![Build status](https://img.shields.io/travis/sonicdoe/bindung.svg)](https://travis-ci.org/sonicdoe/bindung)
 
 > Helps you require your native Node.js addon.
 
