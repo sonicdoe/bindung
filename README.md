@@ -23,6 +23,17 @@ Pass the `target_name`, as defined in your `binding.gyp`, to `bindung`.
 const addon = require('bindung')('addon')
 ```
 
+## Differences to bindings
+
+- Only tries `Release` and `Debug` build paths
+  ([as opposed to `bindings`](https://github.com/TooTallNate/node-bindings/blob/v1.2.1/bindings.js#L18-L34))
+- Looks for `binding.gyp` instead of `package.json`
+  (therefore it works without `package.json` being present)
+- Always appends `.node`
+  ([as opposed to `bindings`](https://github.com/TooTallNate/node-bindings/blob/v1.2.1/bindings.js#L58-L61)),
+  which means that you should not append `.node` yourself
+- Requires Node.js v4 or later
+
 ## Changelog
 
 This project follows [Semantic Versioning 2](http://semver.org/).
