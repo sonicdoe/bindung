@@ -39,6 +39,8 @@ const addon = require('bindung')('addon')
 
 This project follows [Semantic Versioning 2](http://semver.org/).
 
+- v1.0.0 (2017-01-01): Initial release
+
 ## License
 
 `bindung` is licensed under the ISC license.
