@@ -1,0 +1,1 @@
+../../node_modules/native-hello-world/binding.gyp
